@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
+    padding-bottom: 80px; /* Para evitar sobreposição do rodapé */
+}
+
+.navbar-custom {
+    background-color: #6f42c1; /* Cor roxa */
+}
+
+.navbar-custom .nav-link, .navbar-custom .navbar-brand {
+    color: white; /* Texto branco */
+}
+
+.navbar-custom .nav-link:hover {
+    color: #d1c4e9; /* Cor clara ao passar o mouse */
+    transition: color 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    position: fixed; /* Mantém o rodapé fixo ao final da página */
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
